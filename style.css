@@ -1,0 +1,137 @@
+body{
+    background-image:url(imagge/IMG_4959.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: medium;
+}
+
+.container {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.bottom{
+    background-color: skyblue;
+    text-align: center;
+    font-weight: bolder;
+    background-size: cover;
+}
+h2{
+    font-size: 25px;
+}
+.all{
+    background-color: skyblue;
+    margin: 10px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    text-align: center;
+    }
+.one{
+    background-color: white;
+    margin: 1cm;
+    border: 1mm;
+    border-style:solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 15px;
+    text-align: right;
+}
+.one img{
+    border-radius: 6px;
+    width: 225px;
+    height: auto; /* maintain aspect ratio */
+    display: block; /* remove extra space below image */
+}
+.two{
+    background-color: white;
+    margin: 1cm;
+    border: 1mm;
+    border-style:solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 15px;
+    text-align: right;
+}
+.two img{
+    width: 225px;
+    border-radius: 6px;
+    height: auto; /* maintain aspect ratio */
+    display: block; /* remove extra space below image */
+}
+.three{
+    background-color: white;
+    margin: 1cm;
+    border: 1mm;
+    border-style:solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 15px;
+    text-align: right;
+}
+.three img{
+    width: 225px;
+    border-radius: 6px;
+    height: auto; /* maintain aspect ratio */
+    display: block; /* remove extra space below image */
+}
+.btn-one{
+    background-color: darkgoldenrod;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 3px 3px;
+}
+.btn-one:hover{
+    background-color: lightgray;
+}
+.btn-two{
+    background-color: darkgoldenrod;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 3px 3px;
+}
+.btn-two:hover{
+    background-color: lightgray;
+}
+.btn-three{
+    background-color: darkgoldenrod;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 3px 3px;
+}
+.btn-three:hover{
+    background-color: lightgray;
+}
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+  .responsive-img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
